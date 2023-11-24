@@ -20,7 +20,7 @@ public class EmployeeController {
 	@Autowired
 	EmployeeService empservice;
 	
-	@PostMapping("/addEmployee-Dev1-Feature")
+	@PostMapping("/addEmployee-Dev1-Feature-recently")
 	public void addEmployee(@RequestBody Employee emp)
 	{
 		empservice.addEmployee(emp);
